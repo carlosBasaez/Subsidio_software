@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BC2E073-5C8A-F0EA-6BB3-BD47C412CA6F" name="anomalia">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>1C11B10D-8884-538F-5BEF-677754F36977</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anomalia" id="D48DC7FC-0A5F-34C8-5259-45E86E4B9936">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DEDEDA5A-DA10-8D17-9AE6-E571B4E97BBC</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_anomalia" id="EDB5091B-4BBF-F8F9-7066-A9123B37E6BF">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2940792C-1FF2-CC82-500A-B94372B1E516</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dificultad_id_dificutad" id="06523849-94B9-B456-90AE-D398E2B9A969">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>D9C2A8EA-DE71-D3CE-6466-FB9BA1B51754</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>06A3ED29-FC7F-5600-AAF1-765A54455115</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6761FF3A-17F2-7187-5910-550727531288" referredColumn="06A3ED29-FC7F-5600-AAF1-765A54455115"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E884EE9F-DEE2-97A7-3343-422F86C5372A" name="anomalia_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>245532BA-C60A-8E8C-A927-4399B81D696A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D48DC7FC-0A5F-34C8-5259-45E86E4B9936"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CBACC36-FF20-058E-D71D-ACCB31552B87" name="anomalia_dificultad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>11E745DB-6602-76F9-71A7-E563C6E8280A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06523849-94B9-B456-90AE-D398E2B9A969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

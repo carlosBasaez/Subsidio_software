@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B87803DF-8B12-CD01-7022-4ED855E02105" name="estado_civil">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:16:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado_civil" id="EADDD767-9902-3C58-0BB9-F4DA88500A27">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:16:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="estado_civil" id="8A4E0E54-0C0F-540C-61F0-CEA8B3C60484">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:16:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="puntaje" id="21FADFD4-2D2B-92B0-AB85-A7FF4DEA62E9">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-09 04:36:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="127365B9-F4FA-A0DA-8120-8C0DCFFB7BA8" name="estado_civil PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:16:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EADDD767-9902-3C58-0BB9-F4DA88500A27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

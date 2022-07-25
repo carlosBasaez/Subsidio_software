@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF29802C-54AA-A431-A478-2560F0F14BDB" name="entidad_financiera">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:36:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_entidad_financiera" id="8E4D39F3-3FCF-A952-7A01-0BC587A58154">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:36:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="entidad_financiera" id="97C06882-9C54-9217-98D7-CBE8F61D3EBB">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:36:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B996ED6-2655-924B-DB0D-D9EE3C27B319" name="entidad_creditica PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:36:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E4D39F3-3FCF-A952-7A01-0BC587A58154</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

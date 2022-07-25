@@ -1,0 +1,219 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA350B60-61A1-7F1F-FC89-A44306FCE959" name="Ante_constructivos_vivienda">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:48:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_vivienda" id="70C13D87-9B24-A376-6773-E075BC161BBD">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_pisos" id="694C317B-F3FD-A2EF-F272-F7A93041F07D">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="agrupacion_vivienda" id="0D291F2E-8237-3099-C385-E6D4455A4870">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_estar" id="61989E56-783F-631C-53ED-CEBD8539AF24">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_dormitorios" id="69AED6DF-B1B3-C27E-DC2F-2A73F8AAB659">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_comedores" id="FCD592EA-BC80-0A2A-2559-0B35A451BBF9">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_baños" id="DBD6EEE2-96A3-8202-2A03-570A9B075043">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_cocinas" id="574415FC-2E25-14CF-51CB-CA890BCBDEE5">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_estaciona" id="E076AAD3-7BDA-B2BF-20E2-9D796643EABF">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="loggia" id="E0AE021B-87AF-443C-EA00-30E4AB0151D4">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bodega" id="E26D2526-C049-E248-AA72-D2BF9B545A0E">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="balcon_terraza" id="C69536F6-2E01-30B8-08BE-CAC47EF3D58A">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="otro_recinto" id="C72BA2A1-0B74-023E-428C-E86224B1F52C">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="m2_vivienda" id="B5AC04D1-A859-BCEE-6C10-DF03ED9D2674">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="m2_terreno" id="C0B78BB7-C011-E6A2-DE0B-DD9DA4D76932">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="techo" id="9BE05500-4081-0385-190E-40BCF51C3FC8">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="muros" id="C406DD2D-6792-D53A-A9B3-8C5543AAE9BB">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso/entretecho" id="5CEC991C-C3D0-896F-301F-98E573DEF7D9">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:10:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_conservacion" id="46B03BB3-E32F-AB99-ECB4-B36248519347">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:12:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

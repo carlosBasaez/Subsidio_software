@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D00E95D-9C6B-EAC4-39F3-ED2EECB66983" name="antecendente_anomalia">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>C6EDDB3F-EF88-2C15-B31E-489D5CBCBC44</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="antecedentes_constr_viv_anexo_d_nro_folio_D" id="8BB9B5D9-A5FB-6FB6-3CC6-C8CE148D13BD">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>CF267B7C-A54E-8113-A061-12D0B6B0D5B6</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>682305DA-C100-95CA-2098-D2AE74F7A306</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F05ACB2-0F32-7FFF-B282-17723F410981" referredColumn="682305DA-C100-95CA-2098-D2AE74F7A306"/>
+</associations>
+</Column>
+<Column name="anomalia_id_anomalia" id="1FB32D8D-3AB8-5BEA-F6B7-A4E83A64C64C">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>169F6BD2-68A7-1374-D65A-468EE962C014</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>D48DC7FC-0A5F-34C8-5259-45E86E4B9936</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CB3E477-A93B-72CC-CA3E-0EBDE552E785" referredColumn="D48DC7FC-0A5F-34C8-5259-45E86E4B9936"/>
+</associations>
+</Column>
+<Column name="existe" id="4AEC607E-B7A9-8620-F81A-AF0CA0547C92">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>6E0BC99A-69BB-BD37-54A7-E1AE8328D824</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C086A87-4F70-9901-F0CB-79F3450B1AF6" name="antecendente_anomalia_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>893BA181-DFDC-87FA-4363-CE4CC7B6AA7A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB9B5D9-A5FB-6FB6-3CC6-C8CE148D13BD"/>
+<colUsage columnID="1FB32D8D-3AB8-5BEA-F6B7-A4E83A64C64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C82CBB8C-453B-AE7F-B965-C3932A2F3FA0" name="antecendente_anomalia_antecedentes_constr_viv_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E827C4E7-7089-B6F6-A4F5-2F9AA1497E0E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB9B5D9-A5FB-6FB6-3CC6-C8CE148D13BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="922448E4-A7CE-B2C7-7DED-92D1AA218F49" name="antecendente_anomalia_anomalia_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>612B3B46-6704-E085-8186-EEA9F0E75AE9</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB32D8D-3AB8-5BEA-F6B7-A4E83A64C64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

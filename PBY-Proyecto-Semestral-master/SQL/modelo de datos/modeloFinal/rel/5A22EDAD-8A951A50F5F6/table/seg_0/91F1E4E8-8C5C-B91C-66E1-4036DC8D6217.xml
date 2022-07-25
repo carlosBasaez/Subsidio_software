@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91F1E4E8-8C5C-B91C-66E1-4036DC8D6217" name="material">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>50DA7306-D847-19B0-E939-217B0BCB28AD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_material" id="A476123A-9290-0105-66A9-50076C900C15">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>88A2FF79-EE36-FDCC-D99D-3F2ADED8E94E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_material" id="40E8C80C-88CF-7BF5-159A-E121397DEDB9">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>5C322D96-D648-8DB3-5048-2235097EECD7</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67B237F4-B6E7-A945-0E88-97BF0137E5A9" name="material_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2CC45684-BDA8-0A08-CA95-DD6B1FA19F05</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A476123A-9290-0105-66A9-50076C900C15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0061E921-6352-085D-8EDF-315123450033" name="escolaridad_colegio_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DDAF2EFA-2789-E640-C85C-2AA9AF5C0C8D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>FF47FBF3-FA4B-9D58-AA08-C2F8B08A4B0F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>DE1AB86A-9873-998F-6852-6A531018BE53</localFKIndex>
+<keyObject>F1D1D202-8001-1105-36ED-0E414381FE01</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

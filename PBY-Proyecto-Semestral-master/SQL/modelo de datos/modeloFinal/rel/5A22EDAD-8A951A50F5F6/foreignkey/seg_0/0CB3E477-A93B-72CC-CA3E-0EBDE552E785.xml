@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CB3E477-A93B-72CC-CA3E-0EBDE552E785" name="antecendente_anomalia_anomalia_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>612B3B46-6704-E085-8186-EEA9F0E75AE9</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>8D00E95D-9C6B-EAC4-39F3-ED2EECB66983</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>922448E4-A7CE-B2C7-7DED-92D1AA218F49</localFKIndex>
+<keyObject>E884EE9F-DEE2-97A7-3343-422F86C5372A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C356C341-8626-0B96-B3E9-35088407B458" name="solicitud_tipo_subsidio_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E1493487-2873-FF06-D7E0-311740D2EA8D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>20AF4EC4-AD89-281F-E973-68E5ADA204CE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>ECEF1687-9484-1FF9-7B9F-C81BB09CC42B</localFKIndex>
+<keyObject>D455FCBB-067E-5D68-8FE7-DDC812E49A59</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+Estoy viendo los cambios de anexo a modelo, puede que despues tenga
+que realizar un segundo analisis por cambios, ej que el recepctor ya no
+es solo un nombre, sino una nueva entidad de la tabla receptor, pero eso requiere
+que analice el texto posteriormente y hagamos los cambios necesarios, 
+supongo que sera mañana
+
+-veo solo modelos relacionales, no requerimos trabajar con logicos tambien?
+
+
+General:
+- rut -> run
+- run: number, min 10
+- nombre, apellido, etc: min 25
+- nombre completo: min 100
+- fono: 20-30
+- correo: 100
+- direccion: min 100
+- id comuna: number 5 (ya sabes como lo hace el hernan)
+
+
+Anexo A
+
+- Mayusculas? (consultar a la profe)
+- ficha cambiar nombre a algo como ficha_formulario_postulacion_personas  (se repetira ficha en el resto de anexos?)
+- ficha: falta fecha de recepcion
+- ficha: falta nombre receptor (de momento un varchar2, pero despues puede que le demos su propia clase)
+- tramo -> tramo_vivienda
+- no me gusta lo de nombre_comuna (porque luego igual hay que usar comuna.nombre_comuna, aunque no hay otro nombre)
+*
+*
+* la reviso cuando la hagas
+
+Anexo B
+- dejaria el rut del postulante como varchar 15 (asi podemos despues trabajarlo de varias formas que aun o elegimos)
+- Mantener constante el diseño (tamaño de letras, formas de nombrar tablas y variables)
+- carga_familiar la primaria debe ser ID o dual primary key (el rut podria repetirse por varios postulantes, o si no usar rut y rut_postulante como primarias)
+- carga familiar: X_carga -> X, cambiar nombre de variables para que sean más simples ej nombres_carga -> nombres
+- carga familiar: relacion con el postulante, no se si debe ser varchar u otra clase, aunque es un termino muy amplio: el primo hermano segundo, creo que deberia ser varchar
+- carga familiar: POSTULANTE_rut_postulante -> rut_postulante (si es que es posible)
+- nombre completo varchar 150
+- nombres carga 35
+- relacion estudiante 50-100
+
+Anexo C
+- mantener estilo
+- rut varchar 15 (esto lo discutimos mañana mejor)
+- entidad crediticia number(5)
+- nombre completo 150
+- largo del numero de cuenta ahorro no se cual es el largo maximo, dejemoslo en 20
+
+
+Anexo D
+- interesante el enfoque de tener todo conectado segun el folio
+- nombre_firma_responsable: deberia ser un blob
+> Datos del solicitante
+- cambios generales
+- telefono solicitante 20-30 caracteres numericos (56 9 1234 1234) estos son 11, pero puede cambiar
+- año_subsidio: varchar 4 o date? dejemoslo en date
+- tipo subsidio: pasarlo a fk con la tabla tipo subsidio (no es igual al del Anexo A)
+> Datos del propietario
+- cambios generales
+- si se considera que el propietario puede tener varias viviendas, hay que usar un M:N
+- si puede estar conectado a varios anexos necesita M:N
+- deberia estar conectado con una tabla llamada vivienda
+> Caracteristicas vivienda
+- Rol sii y Comuna: "Con el N° de Rol el Servicio de Impuestos Internos identifica a una propiedad o bien raíz. Este identificador es único a nivel comunal."
+	entonces: la comuna tambien es una PK ademas de ser FK
+- poblacion/villa/conjunto/condominio sera otra tabla mejor? sino debe ser varchar 100
+> antecedentes administrativos
+- https://www.laflorida.cl/web/wp-content/uploads/2016/04/PE-165-2016.pdf
+- se conecta con la vivienda? porque depende de esta y de cual comuna es el permiso
+- reordenar para que siga el orden de el anexo
+- quitar numero recepcion final, podria ser mejor tener un id o numero del antecedente o usar el mismo del anexo_D como pk o fk
+> anntecedente constructivos de la vivienda
+- en programa arquitectonico usar M:N, donde esta el tipo y la cantidad se coloca en una tabla conectora/intermedia
+- en programa arquitectonico que use number, 0 es no, 1 es si, 2 tambien es si...
+- material predominante estructura, seran 3 tablas: tipo, material y conector
+> Estado de conversacion general de la vivienda
+- no se si deberia ir co los antecedentes, deberia estar en conexion con enexo d o tener conexion con un tabla estado/analisis
+> Anomalias
+- se deberia dejar conectado como el estado general
+- necesita 2 tablas: tipo de anomalia, tipo dificultad, conector con booleano
+> Conclusion
+- debe estar junto a anomalias y estado general
+- no requiere descripcion
+- se puede colocar como una variable boolean "cumple_condiciones_minimas"
+> Antecedentes consultor
+- requiere 2 consultores, eso se puede resolver con M:N o dos FK para cada uno
+- categoria consultor deberia ser otra tabla?
+- deberia ser M:N con anexo_D? eso quitaria el fk
+ 
+
+
+
+
+>Anomalias
+- faltan tipo de anomalia, que almacene su nombre
+- anomalias debe tener el FK en lugar del antecedente y complementarilo con el tipo_anomalia
+
+
+
+
+

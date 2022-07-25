@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6761FF3A-17F2-7187-5910-550727531288" name="anomalia_dificultad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>11E745DB-6602-76F9-71A7-E563C6E8280A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>9BC2E073-5C8A-F0EA-6BB3-BD47C412CA6F</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5CBACC36-FF20-058E-D71D-ACCB31552B87</localFKIndex>
+<keyObject>6D14B7F2-BE04-25B8-CAC5-099DB5FD7C8D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

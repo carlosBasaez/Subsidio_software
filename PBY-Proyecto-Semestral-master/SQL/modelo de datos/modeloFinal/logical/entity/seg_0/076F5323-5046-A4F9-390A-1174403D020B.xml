@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="076F5323-5046-A4F9-390A-1174403D020B" name="vivienda_elegida">
+<createdBy>MasterRace</createdBy>
+<createdTime>2020-07-02 02:39:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="907D6FF8-F90F-E9B6-2AA9-EE11DF31EF44">
+<createdBy>MasterRace</createdBy>
+<createdTime>2020-07-02 02:40:11 UTC</createdTime>
+<generatorID>607CB196-0DD1-45F0-27B7-01892A5D7ABC</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>B66DDC94-A761-DE36-2552-C57BDAD4CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="nro_folio_D" id="B49E5AD6-2D43-D244-1A41-9E669A04A7E9">
+<createdBy>MasterRace</createdBy>
+<createdTime>2020-07-02 02:40:36 UTC</createdTime>
+<generatorID>AB9DDC6C-7EAC-CF51-EE5C-A26D11C84E89</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>A689CA06-834F-5D40-60D9-82491FC2EEDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="688CBFF0-7C18-2774-3B42-5AA0ADD9EE93" name="vivienda_elegida PK">
+<createdBy>MasterRace</createdBy>
+<createdTime>2020-07-02 02:40:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>907D6FF8-F90F-E9B6-2AA9-EE11DF31EF44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

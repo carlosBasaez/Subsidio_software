@@ -1,0 +1,7 @@
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Release\Biblioteca.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Release\Biblioteca.pdb
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Release\Oracle.DataAccess.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Release\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Release\Biblioteca.csproj.CopyComplete
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Release\Biblioteca.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Release\Biblioteca.pdb

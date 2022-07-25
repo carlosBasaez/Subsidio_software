@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71201968-9F63-4BC3-F80B-0AFC488DF540" name="Titular_cuenta_de_ahorro">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:11:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombres" id="CC28D1E3-3D2C-6D60-4A32-06485877745A">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ape_materno" id="E33D36FE-2D12-F83A-D56B-72D0F75D805F">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ape_paterno" id="0508A33E-B799-3A18-AA0E-F60B46765317">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nro_cedula_id" id="FACE2973-68F5-9E18-1204-2205230F3CA9">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nro_cuenta_ahorro" id="F1EC4E1D-AE3E-B4FB-4D55-835991AD86ED">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Entidad_credito" id="E5A8D28A-F74A-BAB2-CD2A-6E3DDA3CEF8E">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="666EED10-8B50-576C-E621-936881F776A9">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:19:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma/huella_mandante" id="541CB597-03F0-B7E5-7370-46EAA4C96EC7">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:20:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="37288837-140C-9D3F-B00A-1F678F9A6B3E">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:20:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo C</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

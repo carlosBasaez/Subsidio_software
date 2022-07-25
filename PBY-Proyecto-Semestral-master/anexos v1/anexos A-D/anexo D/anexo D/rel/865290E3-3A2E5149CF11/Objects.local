@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="CA350B60-61A1-7F1F-FC89-A44306FCE959" name="Ante_constructivos_vivienda" seqName="seg_0"/>
+   <object objectType="Table" objectID="A101B55C-37C7-E9F1-8B83-DA38E3E74C16" name="Antecedente_consultor" seqName="seg_0"/>
+   <object objectType="Table" objectID="69E4FEA5-467A-5637-886F-F642AC966FD9" name="Antecedentes_administrativos" seqName="seg_0"/>
+   <object objectType="Table" objectID="28EF45F5-A000-03DD-C9D0-D7BBD813DF91" name="CARACTERISTICAS_DE_LA_VIVIENDA" seqName="seg_0"/>
+   <object objectType="Table" objectID="FE32E742-9CAD-99AA-F9BE-9814D1837A52" name="Conclusion" seqName="seg_0"/>
+   <object objectType="Table" objectID="29BC661C-2C6D-2FAF-E7D0-CF564E93C3BB" name="Datos_Solicitante" seqName="seg_0"/>
+   <object objectType="Table" objectID="99C67371-F91E-1534-F365-D125544809CB" name="Datos_propietario_vivienda" seqName="seg_0"/>
+   <object objectType="Table" objectID="18953070-DE0E-37AB-27FE-E555F850560C" name="anomalias_dificiles" seqName="seg_0"/>
+   <object objectType="Table" objectID="F3969189-D364-6CF6-CCCA-B92EAE20526A" name="anomalias_faciles" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

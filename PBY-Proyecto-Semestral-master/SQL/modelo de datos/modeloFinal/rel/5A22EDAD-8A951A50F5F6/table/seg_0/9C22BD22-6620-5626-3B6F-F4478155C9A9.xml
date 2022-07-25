@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C22BD22-6620-5626-3B6F-F4478155C9A9" name="ahorro_dato_doc">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>3B8FF8CC-E29F-6D88-B450-9557B5423A5E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ahorro_anexo_a_nro_folio_A" id="645D0335-FBF2-7490-AE23-BB8C12DE61FD">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E5309E63-725B-5A30-5D34-556C43E85DBB</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>E46D2CCB-E36D-AE0F-3B10-201CF3D260D8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15B6F30C-2B80-8C95-4500-6E218D466424" referredColumn="E46D2CCB-E36D-AE0F-3B10-201CF3D260D8"/>
+</associations>
+</Column>
+<Column name="dato_documento_nro_dato_doc" id="4A4D1629-CB37-33AB-BD31-AA2A31CEC996">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>5A60094D-0F8F-2DB9-CE2E-B58EE1536A7E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>3CD5FAA5-4A46-E0A7-E9EA-88360EDCFBD5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE91CD4C-2C33-AC5D-5144-A7164A36F4F7" referredColumn="3CD5FAA5-4A46-E0A7-E9EA-88360EDCFBD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F8BAEC8-F5C2-2A93-88A4-DCD579D835BC" name="ahorro_dato_doc_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DEFD576C-7C4A-5629-7167-7D376CAC9DE5</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="645D0335-FBF2-7490-AE23-BB8C12DE61FD"/>
+<colUsage columnID="4A4D1629-CB37-33AB-BD31-AA2A31CEC996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63366CFC-5E49-8CBB-1204-2A44F9A10AC4" name="ahorro_dato_doc_ahorro_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>A3C6B177-E8AD-359A-4E02-B624A0963ADD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="645D0335-FBF2-7490-AE23-BB8C12DE61FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46BC34BC-0150-212E-FEC1-50E0D55A3AB4" name="ahorro_dato_doc_dato_documento_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>CC08C1E1-0262-96C1-11E3-B8B87325F756</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A4D1629-CB37-33AB-BD31-AA2A31CEC996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

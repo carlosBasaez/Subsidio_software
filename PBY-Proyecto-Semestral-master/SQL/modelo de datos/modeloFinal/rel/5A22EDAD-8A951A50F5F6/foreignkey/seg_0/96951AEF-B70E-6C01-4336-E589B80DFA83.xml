@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96951AEF-B70E-6C01-4336-E589B80DFA83" name="anexo_b_acreditaciones_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>927A188C-D109-F16F-D8FB-A62EE5CF8365</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>758EDA2D-7802-B8D8-DEA6-9D541D588AD7</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>233F7B96-A595-05E5-598E-C0ABCF510608</localFKIndex>
+<keyObject>F4416871-B375-6DB2-DFA3-226C2896513F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

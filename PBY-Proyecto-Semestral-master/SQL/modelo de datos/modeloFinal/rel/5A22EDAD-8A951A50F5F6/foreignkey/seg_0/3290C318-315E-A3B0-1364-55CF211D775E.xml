@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3290C318-315E-A3B0-1364-55CF211D775E" name="ahorro_entidad_financiera_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>912A1BA5-86BF-7EA4-A95B-453CFC926883</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>82760444-873E-1FC1-BDEA-181F02FF4E66</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>FF242C63-9BB8-870E-1041-970B52204E2C</localFKIndex>
+<keyObject>7192B4D4-50D3-68F5-6499-571AA45ED922</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

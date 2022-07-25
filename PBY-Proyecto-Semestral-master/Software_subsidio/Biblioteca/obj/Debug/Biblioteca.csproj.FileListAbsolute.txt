@@ -1,0 +1,13 @@
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Oracle.DataAccess.dll
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.pdb
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Biblioteca.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\bin\Debug\Oracle.DataAccess.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.csproj.CopyComplete
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Biblioteca\obj\Debug\Biblioteca.pdb

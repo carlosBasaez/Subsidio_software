@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82199039-F8FD-389A-9F0D-97BB413E49A4" name="Postulante_anexo_a_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>0EDD9847-3741-617B-DB14-CAB385303F7E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>F741FE1A-0676-21D5-B002-4CA9AC8B0474</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>672F9217-1283-E0D8-553F-FCB97BF9F93A</localFKIndex>
+<keyObject>55B585E1-24A4-36E8-3D28-D02D98C8D5C0</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

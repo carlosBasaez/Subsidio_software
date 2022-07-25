@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0CCD525-4AE0-7B4F-E9CE-280A5D3CAA09" name="titulo_acreditaciones_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>3AE97806-FC47-7407-922F-BEEC021D8C99</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<arc>3DA1756C-0B82-AF35-DEA1-B85DF77496E0</arc>
+<containerWithKeyObject>6666C890-42E6-93A6-7516-AFA376505322</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7FDF82CD-729E-A876-8210-C72E953C57F3</localFKIndex>
+<keyObject>F4416871-B375-6DB2-DFA3-226C2896513F</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

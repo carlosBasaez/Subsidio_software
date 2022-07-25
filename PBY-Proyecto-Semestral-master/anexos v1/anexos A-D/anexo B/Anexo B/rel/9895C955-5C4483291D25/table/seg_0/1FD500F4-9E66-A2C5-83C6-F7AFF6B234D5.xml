@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FD500F4-9E66-A2C5-83C6-F7AFF6B234D5" name="Postulante">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:44:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombres" id="2CD62D88-5462-68A3-C83E-8AFE322D7D00">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:51:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="37AF39BD-56C8-F39F-1800-9BE175284F26">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:51:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nro_cedula_id" id="2180780A-A590-725C-B0BD-4A7B2C743F9F">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:51:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad_conyugues" id="9955B246-7A68-F3A8-5DAF-0ACB97EEEB7E">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:51:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma/huella" id="F4EFC34A-DF81-6681-F53C-437968DA4177">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:52:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="83A2C998-8FC2-D9CE-DEB5-40A134C2DA90">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:01:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

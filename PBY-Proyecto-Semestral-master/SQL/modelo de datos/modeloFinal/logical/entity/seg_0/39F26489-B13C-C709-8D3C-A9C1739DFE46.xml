@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39F26489-B13C-C709-8D3C-A9C1739DFE46" name="ubicacion_preferencia">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 01:01:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="275864DA-E6AD-2E0D-C066-51478AC8C8A3">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 01:03:19 UTC</createdTime>
+<generatorID>ACCE29DC-CB72-2999-5AF5-61329599BD46</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>B66DDC94-A761-DE36-2552-C57BDAD4CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="valor_vivienda" id="602D1FCF-C7AA-143D-D222-F02A2425AE35">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 01:02:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="id_titulo_postulacion" id="2CAF2A9E-EF23-6ACB-940A-36A0E551895B">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 01:03:26 UTC</createdTime>
+<generatorID>7F281D91-7634-DFAF-A748-04A4A173F051</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>BB55355F-4397-E438-0B3C-14C246DEB82F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute name="id_comuna" id="DB0EC92A-A5C1-737C-2231-C5C1A744AFB5">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:41:05 UTC</createdTime>
+<generatorID>6DC6C6E3-7FEA-5B07-2342-B29E97D3BC23</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>CB514217-B741-1C8A-2D71-A227F17D69BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA343977-C705-E7C5-39B9-5B8FC4A6A123" name="ubicacion_preferencia PK">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 02:18:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>275864DA-E6AD-2E0D-C066-51478AC8C8A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

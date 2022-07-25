@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="C98C104C-673E-CEA4-FBD5-9A917C798FF4" name="Conyugue" seqName="seg_0"/>
+   <object objectType="Table" objectID="1FD500F4-9E66-A2C5-83C6-F7AFF6B234D5" name="Postulante" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

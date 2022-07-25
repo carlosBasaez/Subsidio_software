@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CE10CA4-343C-B1FA-A1E5-2E5967999DA6" name="Postulante">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:09:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="026E74A9-772E-3BCA-A2EF-EFC8393E5A23">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:45:47 UTC</createdTime>
+<generatorID>0EDD9847-3741-617B-DB14-CAB385303F7E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>B66DDC94-A761-DE36-2552-C57BDAD4CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="run_postulante" id="516DB33D-6B30-5578-822E-B06C94F3FBC7">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:09:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="primer_apellido" id="DED28C3C-3412-133E-F92A-916B2A74E5F3">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:11:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="segundo_apellido" id="86AF0940-8BCE-339A-AE5A-54C6BF31FC92">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:55:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute name="nombres" id="63F85B06-2D96-C961-021E-56700D75E302">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:55:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="3E5D17F6-2356-51B4-206B-A1C375D5BCE9">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:11:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="certificado_permanencia" id="58DB3830-002F-0BEB-8FA2-0BBDE96B21AE">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:58:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="fecha_certificado_perm" id="0210A7DA-F507-9759-80AE-BC3C4CA0D38D">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:58:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="tramite_divorcio" id="58DE9DAA-29B8-30FA-6AF1-26347C7CA7A2">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 20:00:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="fotografia" id="1360F03D-5E39-E7C2-977D-CCFD0DA565DA">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:37:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="id_nacionalidad" id="74A46CB1-ABF5-AE0F-F721-B26F8E65E3C4">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:15:57 UTC</createdTime>
+<generatorID>AAB7A954-F40E-2689-8648-F79BB4CCADA7</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>3F38FF34-18F8-B010-7C88-97AC155E533B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="id_estado_civil" id="38C9BD1F-46AC-4043-4D04-7D162DFDB473">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:17:04 UTC</createdTime>
+<generatorID>5D2BF365-36D9-A809-A5B4-8FA891AA83AD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>EADDD767-9902-3C58-0BB9-F4DA88500A27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04F5EAA7-C438-F8CC-D54C-0E85350C66B4" name="Postulante PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:11:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>026E74A9-772E-3BCA-A2EF-EFC8393E5A23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

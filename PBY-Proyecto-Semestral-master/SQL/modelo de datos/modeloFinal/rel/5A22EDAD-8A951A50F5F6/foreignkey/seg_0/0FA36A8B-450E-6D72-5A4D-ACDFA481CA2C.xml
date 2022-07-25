@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0FA36A8B-450E-6D72-5A4D-ACDFA481CA2C" name="vivienda_elegida_anexo_a_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>607CB196-0DD1-45F0-27B7-01892A5D7ABC</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>78C101AE-182C-8132-A5B8-2172D80EE8B2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BF6B951F-EB0F-4C71-E1D0-99FFFC780EB7</localFKIndex>
+<keyObject>55B585E1-24A4-36E8-3D28-D02D98C8D5C0</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

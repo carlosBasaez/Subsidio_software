@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B2F59B5-9168-08A7-9B29-B9CBBBAC88A5" name="anexo_d_consultor">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>D8D0C76B-33D7-A172-337E-4F4FEC376D69</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anexo_d_nro_folio_D" id="4948A0D0-AF75-4C68-D9DA-4A5C1B12B7A8">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>62EE5773-A2C7-038E-5AAF-A3151BF8C409</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>78335796-CBD5-A3A7-DA76-A8E32B2A05FB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EEA7DB2-C03F-D6C7-8BE1-D1B1DAE5A0F5" referredColumn="78335796-CBD5-A3A7-DA76-A8E32B2A05FB"/>
+</associations>
+</Column>
+<Column name="antecedente_consultor_run_consultor" id="554CC84F-317E-5721-19E3-76DD030EBD3C">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>CB573F95-59D6-80D5-E6C0-6FDE2BF957C0</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>1DEAD197-3D20-BF1A-32A1-35A7E9C2A547</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3C39CA4-6F65-9189-61C2-5BBB9DD34A2A" referredColumn="1DEAD197-3D20-BF1A-32A1-35A7E9C2A547"/>
+</associations>
+</Column>
+<Column name="nro_resolucion" id="0F6FE50C-FE22-01E1-E54F-EA10463F8A49">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>6107A112-BB3C-FFC2-AEBC-073D4E1F1A6D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_resolucion" id="7D6DE9BA-9969-7B28-5BCA-60BA24583778">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E72A27CC-42C6-DDAD-BF94-11937E460F36</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43A27CC7-2743-D12E-7DBF-452D36CD947A" name="anexo_d_consultor_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>4B767BB7-C718-8396-DC3B-5B3B1E37DB42</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4948A0D0-AF75-4C68-D9DA-4A5C1B12B7A8"/>
+<colUsage columnID="554CC84F-317E-5721-19E3-76DD030EBD3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3848B970-156A-7BCA-B3E1-0455EDD6AD94" name="anexo_d_consultor_anexo_d_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>F8E1F92C-3E14-E08D-4F33-EE1DA7852663</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4948A0D0-AF75-4C68-D9DA-4A5C1B12B7A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58C1F5C3-EEDF-B8F1-9082-7B72BA9BF9C7" name="anexo_d_consultor_antecedente_consultor_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>D4273068-0F57-DD0E-2DE2-9A17DA0C025C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554CC84F-317E-5721-19E3-76DD030EBD3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

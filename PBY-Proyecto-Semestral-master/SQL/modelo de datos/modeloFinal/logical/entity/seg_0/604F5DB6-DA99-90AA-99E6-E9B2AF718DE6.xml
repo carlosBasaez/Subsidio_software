@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="604F5DB6-DA99-90AA-99E6-E9B2AF718DE6" name="ahorro">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:57:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="A81A82BF-4874-EFD2-8735-B798CE364F8C">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 01:01:06 UTC</createdTime>
+<generatorID>59F530A9-64C7-6D65-7AB9-C2F1184177AD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>B66DDC94-A761-DE36-2552-C57BDAD4CDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="nro_cuenta" id="E8DEF1DE-2700-C769-2ED5-998B8E6B96F9">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:58:16 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="run_titular" id="AA17920B-4CEA-7E5B-5477-90BD8E7A526E">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:58:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="fecha_apertura" id="E99FF299-5D22-61FD-D9D8-724800814E9C">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:59:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="monto_ahorrado" id="3AD7A1D3-65FB-86EF-744A-2F4A16EB35C7">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:59:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="id_entidad_financiera" id="3D5A7766-F4B0-A5B6-6B64-68C736ED74BD">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 21:46:50 UTC</createdTime>
+<generatorID>912A1BA5-86BF-7EA4-A95B-453CFC926883</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>8E4D39F3-3FCF-A952-7A01-0BC587A58154</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="id_relacion_titular_cuenta" id="605C6B1B-D066-39F3-808E-276CD0EF6DF6">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 19:37:25 UTC</createdTime>
+<generatorID>2444A8D2-F120-AB31-389D-272AD7ACBE70</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>EC709121-A910-646C-F1DD-98233BD4B09F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="id_tipo_cuenta" id="C21D989B-BAC1-AC70-B9AC-FA046BF86F43">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 21:24:02 UTC</createdTime>
+<generatorID>24BB669D-941C-4709-6125-B6940864BAB1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>BF7782FC-3A6A-8594-B95B-4061CCCFBB15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16F0DE3A-A5F3-585C-DC22-0C52F4212895" name="ahorro PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-27 00:58:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A81A82BF-4874-EFD2-8735-B798CE364F8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

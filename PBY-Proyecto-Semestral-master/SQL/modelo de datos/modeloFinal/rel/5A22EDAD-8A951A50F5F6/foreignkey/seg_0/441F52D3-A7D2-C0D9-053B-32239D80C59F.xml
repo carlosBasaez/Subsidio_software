@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="441F52D3-A7D2-C0D9-053B-32239D80C59F" name="otro_danno_dificultad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>62DF60D0-70F7-A9E1-5EB4-4ACE056D0076</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>8FDF8D0E-6607-0A26-2E91-15A78CDF73B3</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>50713976-A818-F213-E569-114477348D2E</localFKIndex>
+<keyObject>6D14B7F2-BE04-25B8-CAC5-099DB5FD7C8D</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

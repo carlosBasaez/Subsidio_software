@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82760444-873E-1FC1-BDEA-181F02FF4E66" name="ahorro">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>604F5DB6-DA99-90AA-99E6-E9B2AF718DE6</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anexo_a_nro_folio_A" id="E46D2CCB-E36D-AE0F-3B10-201CF3D260D8">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>A81A82BF-4874-EFD2-8735-B798CE364F8C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>A821D187-928B-38A8-9C3F-14A50B9C5DD7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18CF12C1-F56F-0FD5-2121-90845C9C78BC" referredColumn="A821D187-928B-38A8-9C3F-14A50B9C5DD7"/>
+</associations>
+</Column>
+<Column name="nro_cuenta" id="4122DACD-9315-EEAF-E8B5-775F5FC45251">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E8DEF1DE-2700-C769-2ED5-998B8E6B96F9</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run_titular" id="1A1C164B-0606-6D35-345E-846BA8FB7F90">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>AA17920B-4CEA-7E5B-5477-90BD8E7A526E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_apertura" id="C337A6B0-0B38-BCB8-6119-5FF221F9A9B0">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E99FF299-5D22-61FD-D9D8-724800814E9C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_ahorrado" id="F4A7CC56-3E98-79CF-876C-DC7F77974CEB">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>3AD7A1D3-65FB-86EF-744A-2F4A16EB35C7</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entidad_financiera_id_entidad_financiera" id="58D4E041-21E2-6076-24C6-85363ED3154C">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>3D5A7766-F4B0-A5B6-6B64-68C736ED74BD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>A2639003-42B3-F19F-11DC-06435F7DA2C5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3290C318-315E-A3B0-1364-55CF211D775E" referredColumn="A2639003-42B3-F19F-11DC-06435F7DA2C5"/>
+</associations>
+</Column>
+<Column name="relacion_titular_cuenta_id_relacion_titular_cuenta" id="55E7011B-28A1-7D4D-D2AE-5E6700BCE9F0">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>605C6B1B-D066-39F3-808E-276CD0EF6DF6</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>C4B0EFE3-FA5F-8FCA-38E2-047654C84AC0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EAE10EA-F907-62F7-F5D1-0A5999D42806" referredColumn="C4B0EFE3-FA5F-8FCA-38E2-047654C84AC0"/>
+</associations>
+</Column>
+<Column name="tipo_cuenta_id_tipo_cuenta" id="28D68C22-981F-7EE9-FF9C-5CBCFDE13C22">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>C21D989B-BAC1-AC70-B9AC-FA046BF86F43</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>0B5D95E0-DECB-273A-E61E-D4C92CA8A0D3</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37C7E1CB-11B3-1F1B-792C-0CF529589B27" referredColumn="0B5D95E0-DECB-273A-E61E-D4C92CA8A0D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F80EBB37-CF07-7CE7-795C-AE2F76E94EBA" name="ahorro_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>16F0DE3A-A5F3-585C-DC22-0C52F4212895</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E46D2CCB-E36D-AE0F-3B10-201CF3D260D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04492F4E-2A55-CEB7-27CD-47E590324EB7" name="ahorro_anexo_a_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>59F530A9-64C7-6D65-7AB9-C2F1184177AD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E46D2CCB-E36D-AE0F-3B10-201CF3D260D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67CB16F8-18EC-9DFE-32E6-200B47D84F39" name="ahorro_relacion_titular_cuenta_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2444A8D2-F120-AB31-389D-272AD7ACBE70</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E7011B-28A1-7D4D-D2AE-5E6700BCE9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A9EEC2B-9E66-F07C-4294-0FAB4A28A905" name="ahorro_tipo_cuenta_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>24BB669D-941C-4709-6125-B6940864BAB1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28D68C22-981F-7EE9-FF9C-5CBCFDE13C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF242C63-9BB8-870E-1041-970B52204E2C" name="ahorro_entidad_financiera_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>912A1BA5-86BF-7EA4-A95B-453CFC926883</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58D4E041-21E2-6076-24C6-85363ED3154C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

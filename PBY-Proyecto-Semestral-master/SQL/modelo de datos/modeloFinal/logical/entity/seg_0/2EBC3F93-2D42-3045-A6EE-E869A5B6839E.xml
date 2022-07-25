@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EBC3F93-2D42-3045-A6EE-E869A5B6839E" name="ant_material_estructura">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:23:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_D" id="2B0908D6-CD1B-B17C-1519-A59F939CB78C">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:24:04 UTC</createdTime>
+<generatorID>142EDB97-0E00-BD02-ED00-67414E624C3C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>F30386E4-CD23-A24D-CF29-DC7094FB9417</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="id_estructura" id="F1AC779F-C31A-E909-B6D1-A61363A8AB9A">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:24:13 UTC</createdTime>
+<generatorID>BD902F11-9EC2-9D3F-E0DD-FC7E68BB0892</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>FC474A7D-568C-B1B7-E10B-334874AB2B80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="id_material" id="0DF12046-F3F6-4229-FBE5-AA4C6F219911">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:24:08 UTC</createdTime>
+<generatorID>0AD0A035-89C1-B1C7-36CA-609395665080</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>88A2FF79-EE36-FDCC-D99D-3F2ADED8E94E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01A88528-5F54-0DD1-7234-5C4846B3D9C1" name="ant_material_estructura PK">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:24:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B0908D6-CD1B-B17C-1519-A59F939CB78C</attributeRef>
+<attributeRef>F1AC779F-C31A-E909-B6D1-A61363A8AB9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

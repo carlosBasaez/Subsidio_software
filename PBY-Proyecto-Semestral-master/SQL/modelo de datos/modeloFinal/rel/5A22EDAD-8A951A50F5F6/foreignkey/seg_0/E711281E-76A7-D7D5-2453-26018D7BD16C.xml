@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E711281E-76A7-D7D5-2453-26018D7BD16C" name="carga_familiar_anexo_b_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>C5899649-37C9-A13A-8884-C24232D21E53</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>CB6367A7-F3FE-7C70-7274-FE28A67DBCF2</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>D4F914F6-0F1B-DF07-8655-4DF6249BEE4D</localFKIndex>
+<keyObject>B0BD0EF5-2B50-9398-E08F-AC9EFEE52F77</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

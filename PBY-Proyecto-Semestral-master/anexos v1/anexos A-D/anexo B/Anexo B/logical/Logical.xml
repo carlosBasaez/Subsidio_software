@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B9E0A523-8429-638F-8A46-4A6109211949" mainViewID="E4FD40A9-D9F4-75E5-26B8-A578FDDBDB78">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:41:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo B</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

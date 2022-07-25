@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="71201968-9F63-4BC3-F80B-0AFC488DF540" name="Titular_cuenta_de_ahorro" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

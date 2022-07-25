@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FDF8D0E-6607-0A26-2E91-15A78CDF73B3" name="otro_danno">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>EA5278DF-EB5E-D1A0-F85B-6B9B7668966D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="antecedentes_constr_viv_anexo_d_nro_folio_D" id="3EBD08D4-A5C3-68EB-0296-973F6E6A4F50">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>B1C85D00-9432-1932-EAFC-1F10DB0773D2</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>682305DA-C100-95CA-2098-D2AE74F7A306</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92C6749D-404F-08C1-5382-ED0B5E5B1010" referredColumn="682305DA-C100-95CA-2098-D2AE74F7A306"/>
+</associations>
+</Column>
+<Column name="nro_danno" id="DABD3D4D-562B-D510-D57A-24A335EF06B6">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>0C2613D0-CE36-D461-521F-26D5A2505645</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="644B9BE3-867C-E32E-5FAF-40E04360D2C9">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>ED0F9910-1276-E8DB-780C-977A2B77AE25</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dificultad_id_dificutad" id="0DCDBEEA-8126-737C-BAD4-D8C03ED298D9">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>B69172EE-0C0C-B477-46FB-C6AA524362B2</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>06A3ED29-FC7F-5600-AAF1-765A54455115</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441F52D3-A7D2-C0D9-053B-32239D80C59F" referredColumn="06A3ED29-FC7F-5600-AAF1-765A54455115"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7BAF2BC-C43E-810F-231E-F2423D5ADD30" name="otro_danno_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>89C69B06-ADF2-23CC-9C48-4D6A14F2A0DB</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABD3D4D-562B-D510-D57A-24A335EF06B6"/>
+<colUsage columnID="3EBD08D4-A5C3-68EB-0296-973F6E6A4F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14712A55-65CB-A0FC-70B5-0996EADB5CBF" name="otro_danno_antecedentes_constr_viv_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>E65C13F9-5914-6D74-19BA-E8CEB7BE30E5</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EBD08D4-A5C3-68EB-0296-973F6E6A4F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50713976-A818-F213-E569-114477348D2E" name="otro_danno_dificultad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>62DF60D0-70F7-A9E1-5EB4-4ACE056D0076</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DCDBEEA-8126-737C-BAD4-D8C03ED298D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

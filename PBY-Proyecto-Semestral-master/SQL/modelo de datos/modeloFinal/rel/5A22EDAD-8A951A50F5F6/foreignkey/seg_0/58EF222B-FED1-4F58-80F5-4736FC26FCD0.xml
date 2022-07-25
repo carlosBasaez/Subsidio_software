@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58EF222B-FED1-4F58-80F5-4736FC26FCD0" name="ant_material_estructura_estructura_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>BD902F11-9EC2-9D3F-E0DD-FC7E68BB0892</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>45DA0F1E-BF9C-AC7D-1620-590981A63FBA</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>FB60F901-56EC-32A6-7CAC-4BBFAD12F67B</localFKIndex>
+<keyObject>95F675C1-33D7-07DC-375B-3317E40DC057</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

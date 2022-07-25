@@ -1,0 +1,19 @@
+1. Listo
+
+profe, para el proyecto semestral hay que normalizar, esto ayuda para no tener que repetir informacion
+y prevenir errores, pero ¿es diferente para cuando se habla de documentos? porque una persona puede
+postular varias veces, pero si esta persona cambia digamos de estado civil, ¿este cambio afecta a 
+postulaciones anteriores o las postulaciones anteriores no deben ser afectadas por las posteriores?
+
+
+2. 
+profe, sobre anexo a comuna y valor preferencia ¿debe ser por cada vivienda? o ¿solo una vez se ingresa? 
+
+3.
+profe, sobre la interfaz, solo debe hacer las funciones de calcular y consultar a los aceptado?
+
+4.
+las fechas y firmas de los documentos, van por separado en su propia tabla o juntos en la misma como una unica firma o fecha para todas?
+
+5. Fecha de la inspeccion? opcional?
+6. Anexo D: subsidio?

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDB3DF8C-70A8-68A5-39A4-4342B733E15F" name="conviviente_civil">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>79F4BD3D-1091-9EF7-4965-4C7A1862AB41</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anexo_a_nro_folio_A" id="1528FDBF-CC24-D52C-B2A7-9C917EE6BADD">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>7E4A075F-C675-F997-9B0A-3C4C82C9F43A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>A821D187-928B-38A8-9C3F-14A50B9C5DD7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44032E3E-E042-B6D7-5186-59CEEFAAC841" referredColumn="A821D187-928B-38A8-9C3F-14A50B9C5DD7"/>
+</associations>
+</Column>
+<Column name="run_conviviente" id="B9CDDE53-E894-9519-9676-9F40B2D2E08D">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>834F5F8F-4040-3811-3306-4666304F2407</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="18EB0DDA-4773-B215-F2DF-E937D4A03B3E">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>FD8272A2-410D-8FF6-5760-ADF86FACC746</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="87E386BB-510C-8BC5-6641-FC9B7499D533">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>1E5915DA-A556-190C-3DC0-62F109ED43C9</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="14E5DB8A-D710-3A93-A645-DC4B47231447">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2EF661EE-E4AA-8675-ABCB-42A854FC7131</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="5C62F686-E164-0CBF-A5BC-2839987F22E3">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>9B327AFE-D165-1D63-A4C6-1657A1178E7C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad_id_nacionalidad" id="D223D4BE-BCD1-CB56-A977-65AB1F50A1AF">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>50248141-BB00-2369-87CE-ABF4421BAFAA</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>1DDDAD31-50D4-9ECA-47D0-CFC541055ED0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D881506B-6A95-3007-A603-E84FB7A7BA02" referredColumn="1DDDAD31-50D4-9ECA-47D0-CFC541055ED0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FED4DB0F-0E92-9E6D-E7A2-84CE42C04846" name="conviviente_civil_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>1FA74FEC-A551-8E19-4E57-78E31D8C981D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1528FDBF-CC24-D52C-B2A7-9C917EE6BADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBA9D8DD-36BC-C1ED-4E1F-D6F159E805E3" name="conviviente_civil_anexo_a_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>9E3FEE72-7399-C5DE-5E14-E618E624959C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1528FDBF-CC24-D52C-B2A7-9C917EE6BADD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73244555-E8BD-C324-598B-7EF481662DCF" name="conviviente_civil_nacionalidad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>AA111BC7-4BF7-58CB-FC2B-0E7741185FE1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D223D4BE-BCD1-CB56-A977-65AB1F50A1AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

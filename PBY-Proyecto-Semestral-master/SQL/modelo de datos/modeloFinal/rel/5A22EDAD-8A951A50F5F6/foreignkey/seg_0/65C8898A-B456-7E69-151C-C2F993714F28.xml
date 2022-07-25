@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65C8898A-B456-7E69-151C-C2F993714F28" name="antecedentes_constr_viv_anexo_d_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>A03CE976-3BD3-889C-9CA1-BECB36A62E89</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>6A7B6381-92C6-5BC6-183D-8654878A739D</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>391C496C-C170-9D3A-01AD-D77CE53E4033</localFKIndex>
+<keyObject>21AEE056-0228-13E4-9D8C-602451034971</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

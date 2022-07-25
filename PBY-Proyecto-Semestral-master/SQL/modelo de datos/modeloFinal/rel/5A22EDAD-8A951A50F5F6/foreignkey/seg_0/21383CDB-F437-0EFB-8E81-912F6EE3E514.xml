@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21383CDB-F437-0EFB-8E81-912F6EE3E514" name="Postulante_nacionalidad_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>AAB7A954-F40E-2689-8648-F79BB4CCADA7</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>F741FE1A-0676-21D5-B002-4CA9AC8B0474</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>B4635282-9EEF-2805-CC85-79EFA918FBA0</localFKIndex>
+<keyObject>F53FB08A-8AD8-2A29-C75E-4C95501CF5BD</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

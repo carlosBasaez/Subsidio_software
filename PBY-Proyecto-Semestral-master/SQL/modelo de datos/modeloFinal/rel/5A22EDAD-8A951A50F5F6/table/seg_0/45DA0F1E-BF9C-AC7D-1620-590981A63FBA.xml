@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45DA0F1E-BF9C-AC7D-1620-590981A63FBA" name="ant_material_estructura">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2EBC3F93-2D42-3045-A6EE-E869A5B6839E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="antecedentes_constr_viv_anexo_d_nro_folio_D" id="8794E067-09AA-A701-8DAF-E01C4AA67CAA">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2B0908D6-CD1B-B17C-1519-A59F939CB78C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>682305DA-C100-95CA-2098-D2AE74F7A306</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDAF3A29-6535-6FD4-43F8-6D63E9873A41" referredColumn="682305DA-C100-95CA-2098-D2AE74F7A306"/>
+</associations>
+</Column>
+<Column name="estructura_id_estructura" id="51DDB5B8-7C7A-9B9F-147B-80FA66BA5258">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>F1AC779F-C31A-E909-B6D1-A61363A8AB9A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<delegate>4D40294C-2704-D8E9-5E6F-9894C5408024</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58EF222B-FED1-4F58-80F5-4736FC26FCD0" referredColumn="4D40294C-2704-D8E9-5E6F-9894C5408024"/>
+</associations>
+</Column>
+<Column name="material_id_material" id="D0531315-2D73-FD6D-58EE-FEF3CE2800C6">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>0DF12046-F3F6-4229-FBE5-AA4C6F219911</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>A476123A-9290-0105-66A9-50076C900C15</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE028749-0BCA-71FB-2E56-82A9307279A8" referredColumn="A476123A-9290-0105-66A9-50076C900C15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC9CCAE7-08D3-4EFD-25D9-4440A2081B04" name="ant_material_estructura_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>01A88528-5F54-0DD1-7234-5C4846B3D9C1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8794E067-09AA-A701-8DAF-E01C4AA67CAA"/>
+<colUsage columnID="51DDB5B8-7C7A-9B9F-147B-80FA66BA5258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29E62202-5809-DD0F-374F-EC1375689786" name="ant_material_estructura_antecedentes_constr_viv_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>142EDB97-0E00-BD02-ED00-67414E624C3C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8794E067-09AA-A701-8DAF-E01C4AA67CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5022BB22-21C8-7F45-43F8-DCA56408A0B4" name="ant_material_estructura_material_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>0AD0A035-89C1-B1C7-36CA-609395665080</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0531315-2D73-FD6D-58EE-FEF3CE2800C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB60F901-56EC-32A6-7CAC-4BBFAD12F67B" name="ant_material_estructura_estructura_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>BD902F11-9EC2-9D3F-E0DD-FC7E68BB0892</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51DDB5B8-7C7A-9B9F-147B-80FA66BA5258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

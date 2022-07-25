@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76627042-0E69-2A9A-5BB0-EB3AE7401CC9" name="Postulante">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:38:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nro_cedula_id" id="AFCB716E-592D-D559-65C4-0B6AAFE684B3">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:44:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="09E3A9F7-012E-3130-7AE9-8D0D89FEE949">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:44:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pri_apellido" id="04E38D55-4471-E91A-1715-AA886E73A6D1">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:44:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seg_apellido" id="1EBA7C3B-67F0-31F4-96D4-FCA2C75E5A58">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:44:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombres" id="FA37BED1-2B0B-7E2F-1370-2F5821550674">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:44:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacionalidad" id="D795E43B-14F9-FF6D-412E-6604863225CD">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:49:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_civil" id="5654BFB2-5A58-230F-84C7-9AB9C3CBD134">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:49:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Certi_de_permanencia" id="C3A7CC4C-1247-478C-E21D-FF078BDD0FAE">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:49:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_certi_permanencia" id="C3DDC4FA-926E-C007-C7B0-645FB87C423B">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 20:06:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Separad_de_hecho" id="7BA1C863-04AB-9CAD-D039-4D04F1A112B6">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:49:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17A3C296-B086-A817-7730-7C0EBE49E43C" name="Postulante_PK">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 21:11:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFCB716E-592D-D559-65C4-0B6AAFE684B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

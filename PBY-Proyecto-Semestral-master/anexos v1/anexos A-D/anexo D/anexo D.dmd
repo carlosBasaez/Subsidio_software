@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="anexo D" id="99D767E5-9689-AEE2-4778-E8890A599C98" version="3.5">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:23:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>99D767E5-9689-AEE2-4778-E8890A599C98</designId>
+</OSDM_Design>

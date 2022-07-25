@@ -1,0 +1,8 @@
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csprojResolveAssemblyReference.cache
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Calcular_puntaje.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Menu_inicio.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\App.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.cache
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.lref

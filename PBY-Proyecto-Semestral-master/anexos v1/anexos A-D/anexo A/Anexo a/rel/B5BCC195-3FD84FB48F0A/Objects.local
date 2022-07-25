@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0C109F88-833F-2BF6-9A01-DEC4A3A176E2" name="Domicilio_postulante" seqName="seg_0"/>
+   <object objectType="Table" objectID="3FD14454-A5F9-B414-A196-A32677D2914C" name="Acreditaciones" seqName="seg_0"/>
+   <object objectType="Table" objectID="76627042-0E69-2A9A-5BB0-EB3AE7401CC9" name="Postulante" seqName="seg_0"/>
+   <object objectType="Table" objectID="8194D9AA-361A-22F9-BE90-B204766EEA52" name="Mandato_ahorro" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D37E373-2763-6F40-95B6-5258C0E70244" name="Contacto_Postulante" seqName="seg_0"/>
+   <object objectType="Table" objectID="A891D4D3-9A25-E032-2121-B5057A309E08" name="Id_conyuge" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A101B55C-37C7-E9F1-8B83-DA38E3E74C16" name="Antecedente_consultor">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:22:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="EE921011-671C-FE90-F06F-BD648A7D3F2B">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run" id="9C8B13B5-ADFA-2218-58ED-4C6C2EF43260">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fono" id="B1B93B2A-7F66-3BD3-D4F0-851D06842C25">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_elec" id="DE998F2A-67E6-CBB9-9042-4BB1CC81AB7D">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="FFCAA487-4643-A6BD-21BB-23B6191FED28">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="CE4AB591-A008-A36F-42E8-F3A95FF9A12A">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_resolucion" id="5BC03A35-7A71-F368-C1F9-CB7999D13A53">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_resolucion" id="04998B88-E643-3D12-F494-34B922BE1134">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 23:23:27 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

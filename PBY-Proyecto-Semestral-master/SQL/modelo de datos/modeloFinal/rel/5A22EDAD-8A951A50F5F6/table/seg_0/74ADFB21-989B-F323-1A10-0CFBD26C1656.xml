@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74ADFB21-989B-F323-1A10-0CFBD26C1656" name="antecendente_tipo_hab">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>C231A080-E93C-A554-C2A2-20D9EBABF30A</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="antecedentes_constr_viv_anexo_d_nro_folio_D" id="F5A0E641-AE92-42B3-D7DF-E542F9EEF1A1">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>C2039A94-57F7-0671-86DD-735237D33649</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>682305DA-C100-95CA-2098-D2AE74F7A306</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="999D8FF7-1BF3-B5E9-0D27-45A3A9C1F248" referredColumn="682305DA-C100-95CA-2098-D2AE74F7A306"/>
+</associations>
+</Column>
+<Column name="tipo_habitacion_id_tipo_hab" id="38830D4D-3FDD-FE16-9EE1-7287E059FDC8">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>30AE1983-0D08-0FCC-EAC9-0A9B98FE724B</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>69097558-AAD7-A68F-4553-6A7B7144283D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84D32D50-4099-6FE6-1FD3-7021642AED3B" referredColumn="69097558-AAD7-A68F-4553-6A7B7144283D"/>
+</associations>
+</Column>
+<Column name="cantidad" id="997300CB-A62B-BC51-ABAB-50C5D39276A4">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2DC8211C-F53D-EF51-0997-9311BC1E55D4</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5026EE07-25FC-BE75-DE6F-3262B52B82F1" name="antecendente_tipo_hab_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>B580916F-F1D0-C357-19AF-43A3730E58C8</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38830D4D-3FDD-FE16-9EE1-7287E059FDC8"/>
+<colUsage columnID="F5A0E641-AE92-42B3-D7DF-E542F9EEF1A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBEEED1F-162D-CA71-FE5D-0C15A0B9565D" name="antecendente_tipo_hab_tipo_habitacion_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>0AFCCFC1-E11E-F279-E646-7AA7CB0FF1C1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38830D4D-3FDD-FE16-9EE1-7287E059FDC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843CBED2-572E-9B05-2C88-CC74CF6C0129" name="antecendente_tipo_hab_antecedentes_constr_viv_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>A9C05659-D5A7-9581-B195-13CE2A54F932</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A0E641-AE92-42B3-D7DF-E542F9EEF1A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

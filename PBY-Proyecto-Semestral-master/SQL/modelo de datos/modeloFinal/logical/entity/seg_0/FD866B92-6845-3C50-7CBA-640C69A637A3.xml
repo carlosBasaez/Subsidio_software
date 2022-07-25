@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD866B92-6845-3C50-7CBA-640C69A637A3" name="titulo">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:21:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="9DAD9E06-D0A9-1855-3A6F-0F67843126B4">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 23:35:41 UTC</createdTime>
+<generatorID>3AE97806-FC47-7407-922F-BEEC021D8C99</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>94F2DB4F-CB03-5A64-CAA0-DD77496C78B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="titulo" id="225296F0-148B-0430-429D-FDF2CC34F58F">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-06-26 22:22:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="id_institucion" id="2B309864-BF34-0101-CD74-B94D4A34DB15">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:12:02 UTC</createdTime>
+<generatorID>5A851724-B4AA-BB70-9CC1-369A295859DC</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>90B451C0-2420-3DAA-5CCE-B3F8F9FBF8D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="id_tipo_titulo" id="382AF9FA-6A21-0A2D-88D9-D3B1F377D9C2">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-09 05:50:08 UTC</createdTime>
+<generatorID>CC93B1F6-F944-CEA1-1864-D76A6C2C3F0F</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>31C8CAD7-174E-2ED9-EEF6-F8BB88F196D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A285DD58-6792-FEEA-8D0D-1C45FFE4EF3A" name="titulo PK">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:12:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DAD9E06-D0A9-1855-3A6F-0F67843126B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

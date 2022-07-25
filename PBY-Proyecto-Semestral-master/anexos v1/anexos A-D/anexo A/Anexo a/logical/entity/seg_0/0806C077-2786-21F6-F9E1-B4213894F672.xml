@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0806C077-2786-21F6-F9E1-B4213894F672" name="Postulante">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 18:25:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<engineerTo>
+<item key="B5BCC195-5950-82FD-D4B3-3FD84FB48F0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N_cedula_id" id="6FE8B832-9A93-B339-B0DE-E460F22CC301">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 19:34:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Anexo a</ownerDesignName>
+<engineerTo>
+<item key="B5BCC195-5950-82FD-D4B3-3FD84FB48F0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+</Attribute>
+</attributes>
+</Entity>

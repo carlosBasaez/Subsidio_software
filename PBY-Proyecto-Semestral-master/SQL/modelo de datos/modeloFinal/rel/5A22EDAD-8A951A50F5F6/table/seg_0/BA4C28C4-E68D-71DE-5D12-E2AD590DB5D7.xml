@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA4C28C4-E68D-71DE-5D12-E2AD590DB5D7" name="ubicacion_preferencia">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>39F26489-B13C-C709-8D3C-A9C1739DFE46</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anexo_a_nro_folio_A" id="D3670D30-97A2-92D4-CBC5-3058EC54FA37">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>275864DA-E6AD-2E0D-C066-51478AC8C8A3</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>A821D187-928B-38A8-9C3F-14A50B9C5DD7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB6D939F-FCB8-C565-B1AB-0A90400AA589" referredColumn="A821D187-928B-38A8-9C3F-14A50B9C5DD7"/>
+</associations>
+</Column>
+<Column name="valor_vivienda" id="0BA73B54-C042-7305-C99C-1C3FC23CDA43">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>602D1FCF-C7AA-143D-D222-F02A2425AE35</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_postulacion_id_titulo_postulacion" id="365797BA-852C-0713-E21F-A8C93ECC915A">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>2CAF2A9E-EF23-6ACB-940A-36A0E551895B</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<delegate>69C5889C-F848-D78D-73AF-53916077B92B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD64E0B9-3EC3-B871-BBD0-69A1864374A3" referredColumn="69C5889C-F848-D78D-73AF-53916077B92B"/>
+</associations>
+</Column>
+<Column name="comuna_id_comuna" id="3FECBA7A-10B4-8CDF-9BA9-C50B47C6E997">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DB0EC92A-A5C1-737C-2231-C5C1A744AFB5</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>160EA5AE-8538-6C4E-EFD1-53D100C9A393</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB7A1A26-78E2-E524-D0AB-406C71083E2C" referredColumn="160EA5AE-8538-6C4E-EFD1-53D100C9A393"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9E9C36A-6180-D75D-C9E9-97E190816EA1" name="ubicacion_preferencia_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>EA343977-C705-E7C5-39B9-5B8FC4A6A123</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3670D30-97A2-92D4-CBC5-3058EC54FA37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E79DB798-5B55-3F75-9F1D-EE3345AE55D5" name="ubicacion_preferencia_anexo_a_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>ACCE29DC-CB72-2999-5AF5-61329599BD46</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3670D30-97A2-92D4-CBC5-3058EC54FA37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D91535C5-C32B-091B-59FD-F960B5D91720" name="ubicacion_preferencia_titulo_postulacion_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>7F281D91-7634-DFAF-A748-04A4A173F051</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365797BA-852C-0713-E21F-A8C93ECC915A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA3B8A38-40DA-E040-AFEE-7894BDDACAFF" name="ubicacion_preferencia_comuna_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>6DC6C6E3-7FEA-5B07-2342-B29E97D3BC23</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FECBA7A-10B4-8CDF-9BA9-C50B47C6E997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

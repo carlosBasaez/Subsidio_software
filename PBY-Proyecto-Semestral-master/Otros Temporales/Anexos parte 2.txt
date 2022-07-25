@@ -1,0 +1,53 @@
+
+
+
+A
+>recepcion
+- receptor sera el usuario para iniciar sesion?
+> ubicacion y preferencia
+- esto debiera ser conectado a una tabla vivienda
+> titulo postulacion
+- dejarlo asi o usar nombre_tramo y UF
+>Identificacion estudiante
+- los booleanos son de largo 1
+> Tablas de poblacion como nacionalidad
+- no se si deberia usar nacionalidad o nombre
+>Acreditaciones
+- los boolean debe ser largo 1
+- fecha_doc_pueblo_indigena
+- fecha_doc_carga_familiar
+- fecha_doc_titulo
+- nro_folio PK
+>indentificacion conyugue o convivinete civi
+-no sabria si el pk es nro_folio o run, pero dejalo asi nomas
+>Domicilio del postulante
+- no cro que numero sirva de pk, usemos nro_folio o run_postulante como pk
+- supongo que podemos conectarlo con postulante directamente
+- falta localidad
+- hay cosas que no se que significan o sus reglas (manzana, sitio), espero que esten correctas
+> contacto
+- se podria conectar con postulante directamente
+- pf nro_postulante
+- telefono movil no deberia ser opcional?
+- email opcional
+- codigo postal opcional?
+- realmente no se cual debiera ser obligatorio
+>Ahorro
+- tipo cuenta debiera ser otra tabla?
+- pk es nro_folio
+- falta entidfad financiera
+
+
+B
+- usa para carga familiar pk de ambos run
+- rut -> run
+- postulante quitarle las mayousculas
+- 
+
+C
+-entidad_crediticia.entidad_crediticia debirea ser entidad_crediticia.nombre
+
+
+D
+- conclusion opcional
+- recuerda los RUN

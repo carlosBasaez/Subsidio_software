@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="948541FD-5504-250D-D847-B1D770E8EDBD" name="dato_responsable_informe">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>531C57E5-0AE9-3091-B803-3C6C07AE9F49</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="anexo_d_nro_folio_D" id="7FAC7434-C81C-382A-2FE5-46F8C6C367B3">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>EB1C9304-93D1-D591-1006-A77CD05DD2AF</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<delegate>78335796-CBD5-A3A7-DA76-A8E32B2A05FB</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54DCA20E-1A95-D64B-CCC1-52ABA40654DD" referredColumn="78335796-CBD5-A3A7-DA76-A8E32B2A05FB"/>
+</associations>
+</Column>
+<Column name="dato_documento_nro_dato_doc" id="3EA9A392-721D-8181-F68A-52F4F91F6FB8">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>CD37AB4E-F410-CDF6-16BA-C0194BC6863F</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>3CD5FAA5-4A46-E0A7-E9EA-88360EDCFBD5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E73E24D7-0CF1-F92C-4F12-7194AD21CB7F" referredColumn="3CD5FAA5-4A46-E0A7-E9EA-88360EDCFBD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="998056BE-1C80-FA26-9630-C798A40C806F" name="dato_responsable_informe_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>5C5DE18C-E789-AA44-0F54-A152EC8FA478</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FAC7434-C81C-382A-2FE5-46F8C6C367B3"/>
+<colUsage columnID="3EA9A392-721D-8181-F68A-52F4F91F6FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5117623-2116-FA5A-0B1D-5EB179DEE357" name="dato_responsable_informe__IDX">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>04576454-F666-0D9B-5E66-19BD96F8B857</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7FAC7434-C81C-382A-2FE5-46F8C6C367B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E32AE77C-8D32-44F2-8100-47196B1D67A6" name="dato_responsable_informe__IDXv1">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D72C8A07-FE83-0FEC-350B-FFB965629DF5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3EA9A392-721D-8181-F68A-52F4F91F6FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C9E5FC0-F24A-FB0B-66D1-887592C11334" name="dato_responsable_informe_anexo_d_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>04576454-F666-0D9B-5E66-19BD96F8B857</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FAC7434-C81C-382A-2FE5-46F8C6C367B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCD9E0A2-18B8-9FF2-D1A9-7AFE28C3BC63" name="dato_responsable_informe_dato_documento_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>D72C8A07-FE83-0FEC-350B-FFB965629DF5</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA9A392-721D-8181-F68A-52F4F91F6FB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

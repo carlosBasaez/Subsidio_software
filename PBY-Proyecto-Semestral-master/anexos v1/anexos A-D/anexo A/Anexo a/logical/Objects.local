@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0806C077-2786-21F6-F9E1-B4213894F672" name="Postulante" seqName="seg_0"/>
+   <object objectType="Entity" objectID="0D4C97F9-042C-F161-ECA7-AEA153251E14" name="ID_conyuge" seqName="seg_0"/>
+   <object objectType="Entity" objectID="195E4253-A8F3-F490-4C5D-38F5CC2FB379" name="Mandato_ahorro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="206EA783-F4C2-6736-DD98-2F04D565689F" name="domicilio_postulante" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3D7B9228-87F8-5A11-18FE-7CA00C4DCCE4" name="Contacto postulante" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B559DFF7-BDB9-8D8E-BDA3-09407878D361" name="Acreditaciones" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

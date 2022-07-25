@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6EDDB3F-EF88-2C15-B31E-489D5CBCBC44" name="antecendente_anomalia">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:18:33 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_D" id="CF267B7C-A54E-8113-A061-12D0B6B0D5B6">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:19:41 UTC</createdTime>
+<generatorID>E827C4E7-7089-B6F6-A4F5-2F9AA1497E0E</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>F30386E4-CD23-A24D-CF29-DC7094FB9417</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="id_anomalia" id="169F6BD2-68A7-1374-D65A-468EE962C014">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:19:44 UTC</createdTime>
+<generatorID>612B3B46-6704-E085-8186-EEA9F0E75AE9</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>DEDEDA5A-DA10-8D17-9AE6-E571B4E97BBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="existe" id="6E0BC99A-69BB-BD37-54A7-E1AE8328D824">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:19:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="893BA181-DFDC-87FA-4363-CE4CC7B6AA7A" name="antecendente_anomalia PK">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-29 03:19:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF267B7C-A54E-8113-A061-12D0B6B0D5B6</attributeRef>
+<attributeRef>169F6BD2-68A7-1374-D65A-468EE962C014</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

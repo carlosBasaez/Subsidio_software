@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29BC661C-2C6D-2FAF-E7D0-CF564E93C3BB" name="Datos_Solicitante">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:23:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha_solicitud" id="9ADBDFFD-8719-97A6-F3F5-F3E6364E34FC">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_inspeccion" id="A511C8D7-474E-0D6A-9A46-59226B7C0293">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_solis" id="3EAD1006-756D-60AD-D459-BCCF2BEA6A0F">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Run" id="CAD343BB-3583-2C72-0B13-937753AF799D">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fono" id="739E3CD5-8649-DB0C-8FD9-0BA3656BDE7B">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_mail" id="E7257690-94F8-F91D-5B1E-AB0B58377AD0">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subsidio_obtenido" id="0311141A-A21C-D233-6148-8DF58A0AF8E2">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_subsi_habitacional" id="8E780631-E4A1-C58C-ACB7-0AD40F2BD6F8">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titu_1_tra_1" id="8D0DF9DF-51C0-0439-B51A-7CB38E5A78D9">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titu_1_tra_2" id="2302F739-41FB-0F01-8073-1591AABB4854">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titu_2" id="0298F5F1-CCC1-87D8-802C-13F5859C1E63">
+<createdBy>Hernan</createdBy>
+<createdTime>2020-06-11 22:32:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>anexo D</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

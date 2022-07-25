@@ -1,0 +1,421 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="D2949283-80BB-4C3A-7A1D-CDE523316619" name="view_postulantes_aceptados">
+<createdBy>MasterRace</createdBy>
+<createdTime>2020-07-02 01:10:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT pos.run_postulante AS RUN_POSTULANTE,&lt;br/&gt;  pos.nombres&lt;br/&gt;  || &apos; &apos;&lt;br/&gt;  || pos.primer_apellido&lt;br/&gt;  || &apos; &apos;&lt;br/&gt;  || pos.segundo_apellido      AS NOMBRE_POSTULANTE,&lt;br/&gt;  pp.edad                      AS EDAD,&lt;br/&gt;  pp.puntaje_edad              AS PUNTAJE_EDAD,&lt;br/&gt;  pp.cargas_familiares         AS CARGAS_FAMILIARES,&lt;br/&gt;  pp.puntaje_cargas_familiares AS PUNTAJE_CARGAS_FAMILIARES,&lt;br/&gt;  pp.estado_civil              AS ESTADO_CIVIL,&lt;br/&gt;  pp.puntaje_estado_civil      AS PUNTAJE_ESTADO_CIVIL,&lt;br/&gt;  pp.pueblo_ind_orig           AS PUEBLO_IND_ORIG,&lt;br/&gt;  pp.puntaje_pueblo_ind_orig   AS PUNTAJE_PUEBLO_IND_ORIG,&lt;br/&gt;  pp.monto_ahorro              AS MONTO_AHORRO,&lt;br/&gt;  pp.puntaje_monto_ahorro      AS PUNTAJE_MONTO_AHORRO,&lt;br/&gt;  pp.titulo                    AS TITULO,&lt;br/&gt;  pp.puntaje_titulo            AS PUNTAJE_TITULO,&lt;br/&gt;  CASE&lt;br/&gt;    WHEN reg.porcentaje_puntaje IS NULL&lt;br/&gt;    THEN &apos;No&apos;&lt;br/&gt;    ELSE reg.region&lt;br/&gt;  END AS ZONA_EXTREMA,&lt;br/&gt;  CASE&lt;br/&gt;    WHEN reg.porcentaje_puntaje IS NULL&lt;br/&gt;    THEN 0&lt;br/&gt;    ELSE reg.porcentaje_puntaje * (puntaje_edad + puntaje_cargas_familiares + puntaje_estado_civil + puntaje_pueblo_ind_orig + puntaje_monto_ahorro + puntaje_titulo)&lt;br/&gt;  END                              AS PUNTAJE_ZONA_EXTREMA,&lt;br/&gt;  pp.puntaje_total                 AS PUNTAJE_TOTAL,&lt;br/&gt;  tv.nombre_tipo_vivienda          AS TIPO_VIVIENDA_SUBSIDIADA,&lt;br/&gt;  up.valor_vivienda                AS VALOR_VIVIENDA,&lt;br/&gt;  up.valor_vivienda - monto_ahorro AS MONTO_SUBSIDIO&lt;br/&gt;FROM Postulante pos&lt;br/&gt;INNER JOIN postulante_puntaje pp&lt;br/&gt;ON (pp.run_postulante = pos.run_postulante)&lt;br/&gt;INNER JOIN vivienda_elegida ve&lt;br/&gt;ON (pos.nro_folio_A = ve.nro_folio_A)&lt;br/&gt;INNER JOIN caracteristica_vivienda cv&lt;br/&gt;ON (ve.nro_folio_D = cv.nro_folio_D)&lt;br/&gt;INNER JOIN comuna com&lt;br/&gt;ON (com.id_comuna = cv.id_comuna)&lt;br/&gt;INNER JOIN region reg&lt;br/&gt;ON (com.id_region = reg.id_region)&lt;br/&gt;INNER JOIN antecedentes_constr_viv acv&lt;br/&gt;ON (acv.nro_folio_D = ve.nro_folio_D)&lt;br/&gt;INNER JOIN tipo_vivienda tv&lt;br/&gt;ON (tv.id_tipo_vivienda = acv.id_tipo_vivienda)&lt;br/&gt;INNER JOIN ubicacion_preferencia up&lt;br/&gt;ON (ve.nro_folio_A = up.nro_folio_A)</userDefinedSQL>
+<layoutSQL>&lt;?xml version = &apos;1.0&apos; encoding = &apos;UTF-8&apos;?&gt;&lt;br&gt;&lt;ActiveQueryBuilderLayout&gt;&lt;SQL&gt;Select pos.run_postulante As RUN_POSTULANTE, pos.nombres || &apos; &apos; || pos.primer_apellido || &apos; &apos; || pos.segundo_apellido As NOMBRE_POSTULANTE, pp.edad As EDAD, pp.puntaje_edad As PUNTAJE_EDAD, pp.cargas_familiares As CARGAS_FAMILIARES, pp.puntaje_cargas_familiares As PUNTAJE_CARGAS_FAMILIARES, pp.estado_civil As ESTADO_CIVIL, pp.puntaje_estado_civil As PUNTAJE_ESTADO_CIVIL, pp.pueblo_ind_orig As PUEBLO_IND_ORIG, pp.puntaje_pueblo_ind_orig As PUNTAJE_PUEBLO_IND_ORIG, pp.monto_ahorro As MONTO_AHORRO, pp.puntaje_monto_ahorro As PUNTAJE_MONTO_AHORRO, pp.titulo As TITULO, pp.puntaje_titulo As PUNTAJE_TITULO, Case When reg.porcentaje_puntaje Is Null Then &apos;No&apos; Else reg.region End As ZONA_EXTREMA, Case When reg.porcentaje_puntaje Is Null Then 0 Else reg.porcentaje_puntaje * (puntaje_edad + puntaje_cargas_familiares + puntaje_estado_civil + puntaje_pueblo_ind_orig + puntaje_monto_ahorro + puntaje_titulo) End As PUNTAJE_ZONA_EXTREMA, pp.puntaje_total As PUNTAJE_TOTAL, tv.nombre_tipo_vivienda As TIPO_VIVIENDA_SUBSIDIADA, up.valor_vivienda As VALOR_VIVIENDA, up.valor_vivienda - monto_ahorro As MONTO_SUBSIDIO From Postulante pos Inner Join postulante_puntaje pp On (pp.run_postulante = pos.run_postulante) Inner Join vivienda_elegida ve On (pos.nro_folio_A = ve.nro_folio_A) Inner Join caracteristica_vivienda cv On (ve.nro_folio_D = cv.nro_folio_D) Inner Join comuna com On (com.id_comuna = cv.id_comuna) Inner Join region reg On (com.id_region = reg.id_region) Inner Join antecedentes_constr_viv acv On (acv.nro_folio_D = ve.nro_folio_D) Inner Join tipo_vivienda tv On (tv.id_tipo_vivienda = acv.id_tipo_vivienda) Inner Join ubicacion_preferencia up On (ve.nro_folio_A = up.nro_folio_A)&lt;/SQL&gt;&lt;SubQueries&gt;&lt;SubQuery SQL=&quot;Select pos.run_postulante As RUN_POSTULANTE, pos.nombres || &apos; &apos; || pos.primer_apellido || &apos; &apos; || pos.segundo_apellido As NOMBRE_POSTULANTE, pp.edad As EDAD, pp.puntaje_edad As PUNTAJE_EDAD, pp.cargas_familiares As CARGAS_FAMILIARES, pp.puntaje_cargas_familiares As PUNTAJE_CARGAS_FAMILIARES, pp.estado_civil As ESTADO_CIVIL, pp.puntaje_estado_civil As PUNTAJE_ESTADO_CIVIL, pp.pueblo_ind_orig As PUEBLO_IND_ORIG, pp.puntaje_pueblo_ind_orig As PUNTAJE_PUEBLO_IND_ORIG, pp.monto_ahorro As MONTO_AHORRO, pp.puntaje_monto_ahorro As PUNTAJE_MONTO_AHORRO, pp.titulo As TITULO, pp.puntaje_titulo As PUNTAJE_TITULO, Case When reg.porcentaje_puntaje Is Null Then &apos;No&apos; Else reg.region End As ZONA_EXTREMA, Case When reg.porcentaje_puntaje Is Null Then 0 Else reg.porcentaje_puntaje * (puntaje_edad + puntaje_cargas_familiares + puntaje_estado_civil + puntaje_pueblo_ind_orig + puntaje_monto_ahorro + puntaje_titulo) End As PUNTAJE_ZONA_EXTREMA, pp.puntaje_total As PUNTAJE_TOTAL, tv.nombre_tipo_vivienda As TIPO_VIVIENDA_SUBSIDIADA, up.valor_vivienda As VALOR_VIVIENDA, up.valor_vivienda - monto_ahorro As MONTO_SUBSIDIO From Postulante pos Inner Join postulante_puntaje pp On (pp.run_postulante = pos.run_postulante) Inner Join vivienda_elegida ve On (pos.nro_folio_A = ve.nro_folio_A) Inner Join caracteristica_vivienda cv On (ve.nro_folio_D = cv.nro_folio_D) Inner Join comuna com On (com.id_comuna = cv.id_comuna) Inner Join region reg On (com.id_region = reg.id_region) Inner Join antecedentes_constr_viv acv On (acv.nro_folio_D = ve.nro_folio_D) Inner Join tipo_vivienda tv On (tv.id_tipo_vivienda = acv.id_tipo_vivienda) Inner Join ubicacion_preferencia up On (ve.nro_folio_A = up.nro_folio_A)&quot;&gt;&lt;UnionSubQuery&gt;&lt;DataSource SQL=&quot;Postulante pos&quot; X=&quot;50&quot; Y=&quot;20&quot; Height=&quot;263&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;postulante_puntaje pp&quot; X=&quot;240&quot; Y=&quot;20&quot; Height=&quot;47&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;vivienda_elegida ve&quot; X=&quot;240&quot; Y=&quot;87&quot; Height=&quot;83&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;caracteristica_vivienda cv&quot; X=&quot;240&quot; Y=&quot;190&quot; Height=&quot;209&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;comuna com&quot; X=&quot;50&quot; Y=&quot;303&quot; Height=&quot;101&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;region reg&quot; X=&quot;240&quot; Y=&quot;419&quot; Height=&quot;101&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;antecedentes_constr_viv acv&quot; X=&quot;50&quot; Y=&quot;424&quot; Height=&quot;173&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;tipo_vivienda tv&quot; X=&quot;240&quot; Y=&quot;540&quot; Height=&quot;83&quot; Width=&quot;140&quot;/&gt;&lt;DataSource SQL=&quot;ubicacion_preferencia up&quot; X=&quot;50&quot; Y=&quot;617&quot; Height=&quot;119&quot; Width=&quot;140&quot;/&gt;&lt;/UnionSubQuery&gt;&lt;/SubQuery&gt;&lt;/SubQueries&gt;&lt;/ActiveQueryBuilderLayout&gt;</layoutSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<usedContainers>
+<container alias="pos" containerID="5CE10CA4-343C-B1FA-A1E5-2E5967999DA6"/>
+<container alias="tv" containerID="4E14935F-792F-6A1E-9725-A156CA70DD89"/>
+<container alias="up" containerID="39F26489-B13C-C709-8D3C-A9C1739DFE46"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="RUN_POSTULANTE" id="E03E579F-70A4-7575-A654-E991D9501850">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>RUN_POSTULANTE</alias>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>RUN_POSTULANTE</headerAlias>
+<expression>run</expression>
+<reference>false</reference>
+<referencedColumn>516DB33D-6B30-5578-822E-B06C94F3FBC7</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NOMBRE_POSTULANTE" id="44859681-8442-B2DB-F43E-0820633B7F2C">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>NOMBRE_POSTULANTE</alias>
+<headerAlias>NOMBRE_POSTULANTE</headerAlias>
+<expression>pos.nombres || &apos; &apos; || pos.primer_apellido || &apos; &apos; || pos.segundo_apellido</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="EDAD" id="4DCBD08A-F66A-1963-921B-AE6F7465BF18">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>EDAD</alias>
+<headerAlias>EDAD</headerAlias>
+<expression>pp.edad</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_EDAD" id="5DBBCE9A-997A-FE2C-BB7D-069A80CAFF74">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_EDAD</alias>
+<headerAlias>PUNTAJE_EDAD</headerAlias>
+<expression>pp.puntaje_edad</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CARGAS_FAMILIARES" id="738BB0B6-8E8D-1D6E-A7B4-5374614CC545">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>CARGAS_FAMILIARES</alias>
+<headerAlias>CARGAS_FAMILIARES</headerAlias>
+<expression>pp.cargas_familiares</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_CARGAS_FAMILIARES" id="26F96C98-E60B-0F24-E20F-B9ACF2B81C41">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_CARGAS_FAMILIARES</alias>
+<headerAlias>PUNTAJE_CARGAS_FAMILIARES</headerAlias>
+<expression>pp.puntaje_cargas_familiares</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ESTADO_CIVIL" id="92468A3C-5D6B-A638-AB18-8508F4ADFDAA">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>ESTADO_CIVIL</alias>
+<headerAlias>ESTADO_CIVIL</headerAlias>
+<expression>pp.estado_civil</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_ESTADO_CIVIL" id="D2905ACC-BCFB-6F49-1079-FF5B2A136FC3">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_ESTADO_CIVIL</alias>
+<headerAlias>PUNTAJE_ESTADO_CIVIL</headerAlias>
+<expression>pp.puntaje_estado_civil</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUEBLO_IND_ORIG" id="47E5938D-163E-2070-1DCD-C178FFD70C1A">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUEBLO_IND_ORIG</alias>
+<headerAlias>PUEBLO_IND_ORIG</headerAlias>
+<expression>pp.pueblo_ind_orig</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_PUEBLO_IND_ORIG" id="5021344F-E6AE-F84C-325E-5502EBD0FDE1">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_PUEBLO_IND_ORIG</alias>
+<headerAlias>PUNTAJE_PUEBLO_IND_ORIG</headerAlias>
+<expression>pp.puntaje_pueblo_ind_orig</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="MONTO_AHORRO" id="D5C05FF6-329A-953C-2AFB-B61CC1919338">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>MONTO_AHORRO</alias>
+<headerAlias>MONTO_AHORRO</headerAlias>
+<expression>pp.monto_ahorro</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_MONTO_AHORRO" id="55245A94-E916-FB6F-FD49-0A26BAAA99F2">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_MONTO_AHORRO</alias>
+<headerAlias>PUNTAJE_MONTO_AHORRO</headerAlias>
+<expression>pp.puntaje_monto_ahorro</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TITULO" id="20ABB0B6-B483-F5E8-E769-4C10DCBD9E79">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>TITULO</alias>
+<headerAlias>TITULO</headerAlias>
+<expression>pp.titulo</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_TITULO" id="4243050C-8263-4334-969E-422157172518">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_TITULO</alias>
+<headerAlias>PUNTAJE_TITULO</headerAlias>
+<expression>pp.puntaje_titulo</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="ZONA_EXTREMA" id="FB42A593-5428-A865-A032-63DA83EC1A42">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>ZONA_EXTREMA</alias>
+<headerAlias>ZONA_EXTREMA</headerAlias>
+<expression>Case When reg.porcentaje_puntaje Is Null Then &apos;No&apos; Else reg.region End</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_ZONA_EXTREMA" id="0B5F46CD-6576-0C29-23F8-144A5EC6D9A8">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_ZONA_EXTREMA</alias>
+<headerAlias>PUNTAJE_ZONA_EXTREMA</headerAlias>
+<expression>Case When reg.porcentaje_puntaje Is Null Then 0 Else reg.porcentaje_puntaje * (puntaje_edad + puntaje_cargas_familiares + puntaje_estado_civil + puntaje_pueblo_ind_orig + puntaje_monto_ahorro + puntaje_titulo) End</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="PUNTAJE_TOTAL" id="D7E676B0-4344-D23E-C938-CBDC923F1D7A">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 07:59:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>PUNTAJE_TOTAL</alias>
+<headerAlias>PUNTAJE_TOTAL</headerAlias>
+<expression>pp.puntaje_total</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TIPO_VIVIENDA_SUBSIDIADA" id="910ECDDD-9CFE-C537-C515-40B4E8D21F59">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 08:00:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>TIPO_VIVIENDA_SUBSIDIADA</alias>
+<dataType>VARCHAR2 (20)</dataType>
+<reference>false</reference>
+<referencedColumn>0F926E41-F1CB-0FB1-74F3-DAF08DC2718B</referencedColumn>
+<table>4E14935F-792F-6A1E-9725-A156CA70DD89</table>
+<tableAlias>tv</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="VALOR_VIVIENDA" id="8138E3B7-DBA1-1077-6A28-319D48B5493D">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 08:03:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>VALOR_VIVIENDA</alias>
+<dataType>NUMBER (10)</dataType>
+<reference>false</reference>
+<referencedColumn>602D1FCF-C7AA-143D-D222-F02A2425AE35</referencedColumn>
+<table>39F26489-B13C-C709-8D3C-A9C1739DFE46</table>
+<tableAlias>up</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="MONTO_SUBSIDIO" id="C8EB0F31-C4BD-EE06-E33D-9F0B21E4FA53">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-07-04 09:14:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<alias>MONTO_SUBSIDIO</alias>
+<expression>up.valor_vivienda - monto_ahorro</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5CE10CA4-343C-B1FA-A1E5-2E5967999DA6">
+<container>true</container>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9A924341-DBD2-A2F1-AAE7-4A4D44C9F83E">
+<container>true</container>
+<tableName>region</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4E14935F-792F-6A1E-9725-A156CA70DD89">
+<container>true</container>
+<tableName>tipo_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="39F26489-B13C-C709-8D3C-A9C1739DFE46">
+<container>true</container>
+<tableName>ubicacion_preferencia</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="076F5323-5046-A4F9-390A-1174403D020B">
+<container>true</container>
+<tableName>vivienda_elegida</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5AB575C7-66B8-2C4D-8BD6-E58AEEB730E1">
+<container>true</container>
+<tableName>caracteristica_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9FFD214D-5665-981F-3A78-926B320876E0">
+<container>true</container>
+<tableName>comuna</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EC880618-D5C4-6DE1-6E60-D3DD628A9F7F">
+<container>true</container>
+<tableName>antecedentes_constr_viv</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="516DB33D-6B30-5578-822E-B06C94F3FBC7">
+<columnName>run_postulante</columnName>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="63F85B06-2D96-C961-021E-56700D75E302">
+<columnName>nombres</columnName>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DED28C3C-3412-133E-F92A-916B2A74E5F3">
+<columnName>primer_apellido</columnName>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="86AF0940-8BCE-339A-AE5A-54C6BF31FC92">
+<columnName>segundo_apellido</columnName>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CB91EBF9-09FA-1171-EC73-E75C72E6E1AD">
+<columnName>porcentaje_puntaje</columnName>
+<tableName>region</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9DBC9958-A3E3-5562-0FD0-07FEE65AF2A6">
+<columnName>region</columnName>
+<tableName>region</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0F926E41-F1CB-0FB1-74F3-DAF08DC2718B">
+<columnName>nombre_tipo_vivienda</columnName>
+<tableName>tipo_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="602D1FCF-C7AA-143D-D222-F02A2425AE35">
+<columnName>valor_vivienda</columnName>
+<tableName>ubicacion_preferencia</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="026E74A9-772E-3BCA-A2EF-EFC8393E5A23">
+<columnName>nro_folio_A</columnName>
+<tableName>Postulante</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="907D6FF8-F90F-E9B6-2AA9-EE11DF31EF44">
+<columnName>nro_folio_A</columnName>
+<tableName>vivienda_elegida</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B49E5AD6-2D43-D244-1A41-9E669A04A7E9">
+<columnName>nro_folio_D</columnName>
+<tableName>vivienda_elegida</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7932749F-A51D-76F0-B2ED-E0816A0D250D">
+<columnName>nro_folio_D</columnName>
+<tableName>caracteristica_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CB514217-B741-1C8A-2D71-A227F17D69BE">
+<columnName>id_comuna</columnName>
+<tableName>comuna</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C38B51EE-C248-9363-E768-3A937D41ADFC">
+<columnName>id_comuna</columnName>
+<tableName>caracteristica_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FD0384AD-58A2-BC6C-0A97-0391C70504C3">
+<columnName>id_region</columnName>
+<tableName>comuna</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="547ABFB3-196A-82CB-0E38-39D02F3564EB">
+<columnName>id_region</columnName>
+<tableName>region</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F30386E4-CD23-A24D-CF29-DC7094FB9417">
+<columnName>nro_folio_D</columnName>
+<tableName>antecedentes_constr_viv</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="72344CFA-BCDA-6957-CF8C-FE9DD45C5344">
+<columnName>id_tipo_vivienda</columnName>
+<tableName>tipo_vivienda</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7F605916-F533-B3E1-ED2D-24C548316CD0">
+<columnName>id_tipo_vivienda</columnName>
+<tableName>antecedentes_constr_viv</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="275864DA-E6AD-2E0D-C066-51478AC8C8A3">
+<columnName>nro_folio_A</columnName>
+<tableName>ubicacion_preferencia</tableName>
+</UsedObject>
+</usedObjects>
+</EntityView>

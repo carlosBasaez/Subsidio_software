@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C2B2305-FFBB-9DBD-35E0-FD9C39A3CA32" name="escolaridad">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:09:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_folio_A" id="DAAA30DC-5830-552C-0F54-A45BA318C117">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 23:35:40 UTC</createdTime>
+<generatorID>DF968C70-C223-73E0-EE41-48EB976FD6C1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>94F2DB4F-CB03-5A64-CAA0-DD77496C78B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+</Attribute>
+<Attribute name="ultimo_año" id="D600F283-C479-2057-B38F-FBACB5969B8C">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:10:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+</Attribute>
+<Attribute name="id_colegio" id="12578CE6-2239-0BDF-40A0-D61EC2284A6F">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:11:57 UTC</createdTime>
+<generatorID>DDAF2EFA-2789-E640-C85C-2AA9AF5C0C8D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<referedAttribute>743BEBC4-1736-9972-05A2-6768CD9351DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9653D17F-14ED-467A-AD3C-7272B7AF65D3" name="escolaridad PK">
+<createdBy>Hancov</createdBy>
+<createdTime>2020-06-28 22:11:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<engineerTo>
+<item key="5A22EDAD-B559-B585-6F0D-8A951A50F5F6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAAA30DC-5830-552C-0F54-A45BA318C117</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

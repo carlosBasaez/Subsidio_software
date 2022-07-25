@@ -1,0 +1,54 @@
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csprojResolveAssemblyReference.cache
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Calcular_puntaje.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Menu_inicio.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\App.g.cs
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.cache
+c:\users\56977\documents\visual studio 2017\Projects\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.lref
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csprojResolveAssemblyReference.cache
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Calcular_puntaje.g.cs
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.g.cs
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.g.cs
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\App.g.cs
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.cache
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.lref
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.exe.config
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.exe
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.pdb
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Biblioteca.dll
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Oracle.DataAccess.dll
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Biblioteca.pdb
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Calcular_puntaje.baml
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.baml
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.baml
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.g.resources
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.Properties.Resources.resources
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csproj.GenerateResource.Cache
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.exe
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.pdb
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\MainWindow.g.cs
+C:\Users\56977\Documents\GitHub\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\MainWindow.baml
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.exe.config
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.exe
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Software_subsidio.pdb
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Biblioteca.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Oracle.DataAccess.dll
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\bin\Debug\Biblioteca.pdb
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csprojAssemblyReference.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\MainWindow.g.cs
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.g.cs
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.g.cs
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\App.g.cs
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio_MarkupCompile.lref
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\MainWindow.baml
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Mostrar_anexo_e.baml
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Obtencion_subsidio.baml
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.g.resources
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.Properties.Resources.resources
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csproj.GenerateResource.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csproj.CoreCompileInputs.cache
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.csproj.CopyComplete
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.exe
+D:\Biblioteca\Escritorio\PBY-Proyecto-Semestral\Software_subsidio\Software_subsidio\obj\Debug\Software_subsidio.pdb

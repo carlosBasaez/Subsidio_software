@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6B1CE71-FCC1-3DC4-8221-F803DC59F604" name="Postulante_estado_civil_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>5D2BF365-36D9-A809-A5B4-8FA891AA83AD</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<containerWithKeyObject>F741FE1A-0676-21D5-B002-4CA9AC8B0474</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>5C7A60E2-7C92-812D-AF9E-66AEEF280344</localFKIndex>
+<keyObject>372715AC-B18B-3B7F-EC1E-EEFDD9E58543</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF47FBF3-FA4B-9D58-AA08-C2F8B08A4B0F" name="escolaridad">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>3C2B2305-FFBB-9DBD-35E0-FD9C39A3CA32</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acreditaciones_anexo_a_nro_folio_A" id="B2C12634-DFF4-38E4-3D40-D792560647BE">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DAAA30DC-5830-552C-0F54-A45BA318C117</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>740E6D0B-15AC-18C4-B567-6BFC9AFB734E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55AD0C04-062B-878F-4E70-E0CAF8F3F42E" referredColumn="740E6D0B-15AC-18C4-B567-6BFC9AFB734E"/>
+</associations>
+</Column>
+<Column name="ultimo_año" id="3F4396EA-F857-63E1-1CF8-F2BC5D363A88">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>D600F283-C479-2057-B38F-FBACB5969B8C</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="colegio_id_colegio" id="7294588D-4448-2510-0ACE-8E3FBDF0FB7D">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>12578CE6-2239-0BDF-40A0-D61EC2284A6F</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>321082A5-BB59-7A50-D8C8-F20E1377819E</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0061E921-6352-085D-8EDF-315123450033" referredColumn="321082A5-BB59-7A50-D8C8-F20E1377819E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C239AFA6-3974-7711-9E4D-D69677789775" name="escolaridad_PK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>9653D17F-14ED-467A-AD3C-7272B7AF65D3</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2C12634-DFF4-38E4-3D40-D792560647BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EEFC22D-3C53-9E19-887B-D4119DBE8705" name="escolaridad_acreditaciones_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DF968C70-C223-73E0-EE41-48EB976FD6C1</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2C12634-DFF4-38E4-3D40-D792560647BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE1AB86A-9873-998F-6852-6A531018BE53" name="escolaridad_colegio_FK">
+<createdBy>warloncho</createdBy>
+<createdTime>2020-07-10 02:08:57 UTC</createdTime>
+<generatorID>DDAF2EFA-2789-E640-C85C-2AA9AF5C0C8D</generatorID>
+<ownerDesignName>modeloFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7294588D-4448-2510-0ACE-8E3FBDF0FB7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
